@@ -1325,3 +1325,23 @@ select {
         max-width: 100%;
     }
 }
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+#status.success {
+    background-color: #157813;
+    animation: status 4s ease forwards;
+}
+#status.error {
+    background-color: #ec1839;
+    color: white;
+    animation: status 4s ease forwards;
+}
