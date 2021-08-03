@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
         form.reset();
         status.classList.add("success");
-        status.innerHTML = "Thank you for sending a mail! You mail is always important to me. I will contact you as soon as possible";
+        status.innerHTML = "Thank you for sending a mail! Your mail is always important to me. I will contact you as soon as possible";
         setTimeout(function () {
             document.getElementById('status').style.display='none';
             status.innerHTML = "";
