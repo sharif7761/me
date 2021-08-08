@@ -1112,6 +1112,8 @@ select {
     display: block;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+    max-height: 135px;
+    min-height: 135px;
 }
 
 .blog .blog-item-inner:hover .blog-img img {
